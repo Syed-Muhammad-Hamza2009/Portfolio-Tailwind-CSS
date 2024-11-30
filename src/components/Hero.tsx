@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-// Changes: Added bg-black to fix the background color and made sure the image fits the container
+
 const Hero = () => {
   return (
     <div
@@ -14,12 +14,12 @@ const Hero = () => {
       <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)]">
         <div className="hidden lg:block"></div>
 
-        {/* Changes: Adjusted text size and centering */}
+       
         <div className="text-[70px] sm:text-[100px] font-bold leading-tight flex justify-center items-center text-white">
           <div>
-            <p data-aos="zoom-in-up">I am</p>
-            <p data-aos="zoom-in-up">Syeda</p>
-            <p data-aos="zoom-in-up">Shanzay</p>
+            <p data-aos="zoom-in-up">I'm</p>
+            <p data-aos="zoom-in-up">Syed</p>
+            <p data-aos="zoom-in-up">Hamza</p>
           </div>
         </div>
       </div>
